@@ -1,0 +1,90 @@
+body {
+	//background-color: #18121e;
+	background-color: #111d4a;
+	font-family: calibri;
+}
+
+#wrapper {
+	margin: 0 auto;
+	display: block;
+	width: 90%;
+
+}
+
+#navigation {
+	//background-color: #76323f;
+	width: 100%;
+	height: 50px;
+	margin-top: -10px;
+	background-color: #8380b6;
+}
+
+#container {
+	//background-color: #eac67a;
+	background-color: #c2cae8;
+	margin-top: 6px;
+	width: 100%;
+	height: 550px;
+}
+
+#logo {
+	height: 50px;
+	width: 80px;
+	position: relative;
+}
+
+#welcome {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	padding-top: 40px;
+}
+
+footer {
+	width: 100%;
+	height: 40px;
+	margin-top: -10px;
+	background-color: #8380b6;
+}
+
+footer > p {
+	color: #111d4a;
+	position: relative;
+	top: 4px;
+	left: 5px;
+}
+
+#registerLink:link {
+	color: #111d4a;
+}
+
+#registerLink:hover{
+	color: brown;
+}
+
+#loginForm {
+	position: relative;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50px;
+}
+
+#loginForm > button {
+	position: relative;
+	top: 30px;
+	left: 20px;
+}
+
+#loginForm > #user {
+	position: relative;
+	left: 10px;
+}
+
+#loginForm > #password {
+	position: relative;
+	left: 19px;
+	top: 3px;
+}
+

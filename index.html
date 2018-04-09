@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel = "stylesheet" href = "styles/main.css">
+		<title>Галерија</title>
+		<meta charset = "utf-8"></meta>
+	</head>
+	
+	<body>
+		<div id = "wrapper">
+			<div id = "navigation">
+				<img src = "images/logo.png" alt = "Галерија" id = "logo"/>
+				<a href = "#"><img src = "images/home_visited.png" onmouseover = "this.src = 'images/home_visited.png';"/></a>
+				<a href = "about.html"><img src = "images/about.png" onmouseover = "this.src = 'images/about_visited.png';" onmouseout = "this.src = 'images/about.png';"/></a>
+			</div>
+			<div id = "container">
+			
+				<div id = "welcome">
+					<p>Добредојдовте на официјалната страница на вашата лична галерија, во којашто може да додавате артикли коишто Вам
+					ви се допаѓаат! За да започнете со користење, Ве молиме регистрирајте се <a href = "register.html" id = "registerLink">тука!</a> Доколку веќе
+					сте корисник, искористете ја формата подолу за да се најавите!</p>
+					
+					<div id = "loginForm">
+						<div id = "user">
+							<label>Корисник: </label><input type = "text" id = "userInput"/><br>
+						</div>
+						
+						<div id = "password">
+							<label>Лозинка: </label><input type = "password" id = "passwordInput"/><br>
+						</div>
+						<button type = "submit" onclick = "login();">Најавете се!</button>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<p>ГАЛЕРИЈА &nbsp Сите права се задржани &copy 2018 </p>
+			</footer>
+		</div>
+		
+		
+		<script src = "scripts/main.js"></script>
+		<script src = "scripts/login.js"></script>
+		<script src = "scripts/users.json" type = "text/javascript"></script>
+	</body>
+</html>
